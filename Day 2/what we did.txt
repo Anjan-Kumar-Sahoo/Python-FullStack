@@ -1,0 +1,8 @@
+1 - Leetcode 151 - Reverse 
+        m = s.split()
+        rev_m = m[::-1]
+        return " ".join(rev_m)
+2 - Hacker Rank - Capitalize!
+def solve(s):
+    result = ' '.join(word.capitalize() for word in s.split(' '))
+    return result
